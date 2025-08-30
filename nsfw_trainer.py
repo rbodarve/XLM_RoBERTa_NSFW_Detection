@@ -1,8 +1,6 @@
-#!/usr/bin/env python3
+
 """
-Fine-tune DistilXLM-RoBERTa for NSFW word detection and export to ONNX/TFLite
-Author: AI Assistant
-Description: Complete pipeline for training, evaluating, and exporting NSFW detection model
+DistilXLM-RoBERTa for NSFW word detection and export to ONNX/TFLite
 """
 
 import os
