@@ -1,0 +1,61 @@
+{
+  "best_global_step": 9,
+  "best_metric": 1.0,
+  "best_model_checkpoint": "models/exporter-xtremedistil-l6-h256-uncased/checkpoint-9",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 9,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.8,
+      "eval_loss": 0.689414381980896,
+      "eval_runtime": 0.0124,
+      "eval_samples_per_second": 803.353,
+      "eval_steps_per_second": 80.335,
+      "step": 3
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.9,
+      "eval_loss": 0.6860257387161255,
+      "eval_runtime": 0.0107,
+      "eval_samples_per_second": 932.648,
+      "eval_steps_per_second": 93.265,
+      "step": 6
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 1.0,
+      "eval_loss": 0.6826265454292297,
+      "eval_runtime": 0.0114,
+      "eval_samples_per_second": 873.777,
+      "eval_steps_per_second": 87.378,
+      "step": 9
+    }
+  ],
+  "logging_steps": 10,
+  "max_steps": 15,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 15050443896.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
